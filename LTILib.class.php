@@ -63,8 +63,8 @@ class LTILib {
 	 * successful registration, the $consumer object and the $packet which
 	 * contains the initial data sent by the consumer.
 	 * 
-	 * @param <type> $consumerValidationCallback
-	 * @param <type> $onSuccessCallback
+	 * @param callback $consumerValidationCallback
+	 * @param callback $onSuccessCallback
 	 */
 	public function register($consumerValidationCallback, $onSuccessCallback, $redirect = true) {
 		
